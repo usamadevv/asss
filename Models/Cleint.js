@@ -11,7 +11,20 @@ let Clientdata = new Schema({
         
     }
     ,
-    
+    departments:[{
+       
+        email: {
+            type: String
+        },
+
+        password: {
+            type: String
+        },
+
+        dept: {
+            type: String
+        },
+  }  ],
     status: {
         type: String,
         

@@ -36,8 +36,25 @@ address: {
     status:{
         type:String
     },
+
+
+    latlang: {
+        type: String,
+        
+    }
+    ,
     bank:{
         type:String
+    },
+
+    perdiemamt:{
+
+        type: String
+    },
+
+    onperdiemamt:{
+
+        type: String
     },
     user: [{
         name: {
@@ -71,6 +88,11 @@ address: {
         },
 
         onperdiem:{
+
+            type: String
+        },
+
+        distance:{
 
             type: String
         },

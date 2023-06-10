@@ -10,6 +10,11 @@ let Siteuser = new Schema({
         type: String,
         
     },
+
+    langlat: {
+        type: String,
+        
+    },
    
     password: {
         type: String,
